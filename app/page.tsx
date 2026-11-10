@@ -15,6 +15,8 @@ export default function Home() {
             <div className="absolute -inset-2 bg-gradient-to-tr from-pink-200 to-emerald-200 rounded-full blur-xl opacity-60"></div>
             
             <div className="relative w-48 h-48 sm:w-60 sm:h-60 rounded-full overflow-hidden border-4 border-white shadow-md ring-4 ring-emerald-200/50">
+              
+              {/* === PUT YOUR IMAGE CODE HERE === */}
               <Image
                 src="/profile.jpg"
                 alt="Betheny R. Morallo"
@@ -23,6 +25,8 @@ export default function Home() {
                 className="object-cover w-full h-full"
                 priority
               />
+              {/* ================================ */}
+
             </div>
           </div>
         </div>
